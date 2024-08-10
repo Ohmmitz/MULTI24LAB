@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Project Exhibition</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <section id="banner">
+        <header id="header">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="nav-bar">
+                <a href="#banner"><img src="MULTI LAB.svg" alt="Logo" class="logo"></a>
+                <nav class="nav-links">
+                    <a href="#prototype">PROJECT</a>
+                    <a href="#directory">PLAN</a>
+                    <a href="#timeline">TIMETABLE</a>
+                    <a href="#content">CONTENT</a>
+                </nav>
+            </div>
+        </header>
+        <video autoplay muted loop id="bg-video">
+            <source src="path/Loop.mp4" type="video/mp4">
+        </video>
+        <div class="banner-text">
+            <p>24TH STUDENT PROJECT EXHIBITION OF</p>
+            <h1>MULTIMEDIA</h1>
+            <p>King Mongkut's University of Technology Thonburi</p>
+        </div>
+    </section>
+    <section id="Date">
+        <p>Coming Soon</p>
+        <h1>On may 2025</h1>
+        <p>Thailand Creative and Design Center <br>
+            (TCDC) BANGKOK <br>
+            อาคารส่วนหลัง | Gallery <br>
+            อาคารโปรณีย์กลางบางรัก ถนนเจริญกรุง </p>
+    </section>
+    <section id="prototype">
+        <div class="topic">PROJECT</div>
+    </section>
+    <section id="filter-tags" class="hidden">
+        <span id="filter-tag"></span>
+        <button id="clear-filter">Clear</button>
+    </section>
+    <section id="category">
+        <div class="category-icon" data-category="website">
+            <span class="material-icons">language</span>
+            <p>Website</p>
+        </div>
+        <div class="category-icon" data-category="application">
+            <span class="material-icons">apps</span>
+            <p>Application</p>
+        </div>
+        <div class="category-icon" data-category="animation">
+            <span class="material-icons">animation</span>
+            <p>Animation</p>
+        </div>
+        <div class="category-icon" data-category="game">
+            <span class="material-icons">sports_esports</span>
+            <p>Game</p>
+        </div>
+        <div class="category-icon" data-category="interactive">
+            <span class="material-icons">touch_app</span>
+            <p>Interactive</p>
+        </div>
+        <div class="category-icon" data-category="film">
+            <span class="material-icons">movie</span>
+            <p>Film</p>
+        </div>
+    </section>
+    <section id="project">
+    </section>
+    <section id="directory">
+        <div class="topic">EXHIBITION PLAN</div>
+        <img src="Floor Plan.svg" class="directory-map">
+        <div class="directory-list" id="directory-list">
+        </div>
+    </section>
+    <section id="timeline">
+        <div class="topic">TIMETABLE</div>
+        <div class="timeline-container" id="timeline-container">
+            <!-- Timeline columns will be inserted here by JavaScript -->
+        </div>
+    </section>
+    <section id="content">
+        <div class="topic">CONTENT</div>
+        <h5>Our student short video</h5>
+        <video controls>
+            <source src="path/Loop2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
